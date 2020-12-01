@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>Полиночка Романовская</title>
+    </head>
+    
+    <body>
+       <script>
+    'use strict';
+
+    let name = prompt("Ваше имя?", "");
+    alert(name);
+  </script>
+        <header id="showcase">
+    <h1>Welcome To Polina's Page</h1>
+    <p>Страница самой лучшей старосты самой лучшей группы</p>
+    <a href="#bottom" class="button">Read More</a>
+  </header>
+  <p><a name="bottom"></a></p>
+  <section id="section-a">
+    <p class="text1">Что из этого вы знаете о Полине?</p>
+  </section>
+  <section id="section-b">
+    <p>Немногое из того, что я узнала о Полине, пожив с ней всего месяц (к сожалению или к счастью..) </p>
+  </section>
+  <section id="section-c">
+    <div class="box-1">
+      Полина очень душевный и чувственный человек, она умеет слушать и слышать, помогать словом и делом. Полина очень понимающая: захочешь ночью чипсиков поесть - увидит, посмеется, но поймет (сама по ночам ест). А главное - Полина очень любит убираться! Просто обожает...<br><br>
+      <img src="assets/images/photo1.jpg" class="ph1" width="400px" height="350px"><br><br><br>
+      А это немного о таком, как проходит любой вечер с Полиной <br><br>
+      <img src="assets/images/ph4.jpg" class="ph1" width="400px" height="750px">
+    </div>
+    <div class="box-2">
+      Полина - человек настроения. Вот сегодня есть у нее настроение - она делает на завтрак очень вкусные оладьи. А вот завтра нет у Полины настроения - она покупает себе на ужин очень вкусное пиво =) <br><br><br><br><br>
+      Кстати про вкусные завтраки... Полина очень людит оладьи, и неважно из чего они сделаны: хоть из молока, которому уже месяц и оно превратилось в сметану. <br><br><br><br><br>
+      Интересный факт: Полине можно поднять настроение одной шоколадкой или одним кусочком пиццы <br><br><br><br><br>
+      Кстати о шоколадках.. Вот такой милый и неожиданный сюрприз привезла мне Полина (если б умела, вставила бы сюда смайлик сердечка) 
+      <img src="assets/images/ph3.jpg" class="ph1" width="250px" height="250px"><br><br><br>
+      
+      <form>
+          <input type="button" class="bt" value="Вы знаете все из перечисленного?" onclick="if(window.confirm('Знаю все!')==true){
+          document.forms[0].elements[0].value='Да';}
+          else { document.forms[0].elements[0].value='Нет';} "/>
+      </form>
+    </div>
+    <div class="box-3">
+     Полина обожает спорт.. Скажите ей: "Будем бегать каждый<br> день в 8 утра на Немигу?" Она ответит: "Конечно будем!!!" <br> ...........................<br>И на следующий день встанет в 2 часа дня. <br><br> Она будет отлкадывать с зарплаты и со стипендии<br> на спортивный костюм, чтобы благополучно не ходить<br> в нем на физру... Кстати, вот об этом спортивном топе<br> она мечтала весь август<br>
+     <img src="assets/images/ph2.jpg" class="ph1" width="400px" height="520px"> <br><br>
+     Ну и в конце просто хочу сказать, что ты красотка! 
+     <img src="assets/images/ph5.jpg" class="ph1" width="400px" height="520px"> 
+    </div>
+  </section>
+   <script src="assets/script.js"></script>
+    </body>
+</html>
